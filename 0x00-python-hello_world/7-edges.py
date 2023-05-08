@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-word = "marvelAvenger"
+word = "Holberton"
 word_last_2 = word[-2:]
 middle_word = word[1:-1]
 word_first_3 = word[:3]
