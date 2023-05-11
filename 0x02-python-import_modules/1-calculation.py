@@ -2,10 +2,9 @@
 # mikiashailu
 if __name__ == "__main__":
     from calculator_1 import mul, add, div, sub
-    a = 10
     b = 5
-
-    print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
-    print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
-    print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
+    a = 10
+    print("{:d} * {:d} = {:d}".format(b, a, mul(b, a)))
+    print("{:d} + {:d} = {:d}".format(b, a, add(b, a)))
+    print("{:d} / {:d} = {:d}".format(b, a, div(b, a)))
+    print("{:d} - {:d} = {:d}".format(b, a, sub(b, a)))
