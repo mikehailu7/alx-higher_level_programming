@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-# mikiashailu
-from sys import argv
-add = 0
-for z in argv[1:]:
-    add += int(z)
-print("{:d}".format(add))
+# mikiasHailu
+if __name__ == "__main__":
+    import sys
+    total = 0
+    for i in range(len(sys.argv) - 1):
+        total += int(sys.argv[i + 1])
+    print("{}".format(total))
