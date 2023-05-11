@@ -7,5 +7,5 @@ elif count == 1:
     print("1 argument:")
 else:
     print("{} arguments:".format(count))
-for z in range(count):
-     print("{}: {}".format(z + 1, sys.argv[z + 1]))
+for i in range(count):
+     print("{}: {}".format(i + 1, sys.argv[i + 1]))
