@@ -9,4 +9,4 @@ def max_integer(my_list=[]):
             size = my_list[z]
         else:
             continue
-    return large
+    return size
