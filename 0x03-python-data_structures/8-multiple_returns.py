@@ -3,7 +3,8 @@
 def multiple_returns(sentence):
     size = len(sentence)
     if size == 0:
-        return result = (0, None)
+        answer = (0, None)
+        return answer
     else:
-        res = (size, sentence[0:1])
-        return res
+        result = (size, sentence[0:1])
+        return result
