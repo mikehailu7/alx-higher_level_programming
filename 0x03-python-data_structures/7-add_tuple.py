@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # MikiasHailu
-add_tuple = __import__('7-add_tuple').add_tuple
 def add_tuple(tuple_a=(), tuple_b=()):
     lenA = len(tuple_a)
     lenB = len(tuple_b)
