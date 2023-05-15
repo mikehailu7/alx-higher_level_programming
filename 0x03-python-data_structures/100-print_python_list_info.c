@@ -3,7 +3,7 @@
 #include <Python.h>
 /**
  * print_python_list_info - This function wil display about lists in python.
- * @p: P is used to declear pythonobject.
+ * @p: p is used to declear pythonobject.
  * MikiasHailu.
  * Return: Will return the correct size if it is true.
  * @m: m is an integer.
@@ -17,8 +17,8 @@ PyListObject *list = (PyListObject *)p;
 int m, length, position;
 length = Py_SIZE(p);
 position = list->allocated;
-printf("[*] Size of the Python List = %d\n", size);
-printf("[*] Allocated = %d\n", alloc);
+printf("[*] Size of the Python List = %d\n", length);
+printf("[*] Allocated = %d\n", position);
 for (m = 0; m < size; m++)
 {
 item =  PyList_GetItem(p, m);
