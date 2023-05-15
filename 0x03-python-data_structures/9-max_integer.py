@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # MikiasHailu
 def max_integer(my_list=[]):
+# check if the len is empth or not
     if len(my_list) == 0:
         return
     size = my_list[0]
