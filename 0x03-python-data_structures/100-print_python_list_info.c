@@ -19,7 +19,7 @@ length = Py_SIZE(p);
 position = list->allocated;
 printf("[*] Size of the Python List = %d\n", length);
 printf("[*] Allocated = %d\n", position);
-for (m = 0; m < size; m++)
+for (m = 0; m < length; m++)
 {
 item =  PyList_GetItem(p, m);
 printf("Element %d: %s\n", m, Py_TYPE(item)->tp_name);
