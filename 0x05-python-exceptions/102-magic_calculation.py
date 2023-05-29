@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Author: mikiashailu
-# ByteCode -> Python 
+# ByteCode 
 def magic_calculation(a, b):
     res = 0
     for m in range(1, 3):
