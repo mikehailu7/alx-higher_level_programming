@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # Author: Mikiashailu
-# My first square
-""" This is a class of square"""
+# Myfirstsquare
+""" This is a class of square."""
 class Square:
-    """ empty square """
+    """ This is an empty square."""
     pass
