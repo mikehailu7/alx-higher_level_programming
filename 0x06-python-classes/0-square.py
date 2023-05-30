@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 # Author: Mikiashailu
 # Title: Myfirstsquare
-"""This is a class."""
+"""Define a class Square."""
 class Square:
-    """This is an empty square."""
+    """Represent a square."""
     pass
+
