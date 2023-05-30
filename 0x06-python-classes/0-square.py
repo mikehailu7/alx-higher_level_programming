@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Author: Mikiashailu
-# Myfirstsquare
+# Title: Myfirstsquare
 
 """This is a class of square"""
 class Square:
