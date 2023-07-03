@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3a
 # Author: mikiasHailu
 # Fun: RectangleTwo
 
@@ -8,7 +8,7 @@
 class Rectangle:
     """ This will represent a rectangle """
     def __init__(self, width=0, height=0):
-        """ This function will Initializes the rectangle"""
+        """ This function will Initializes the rectangle """
         self.height = height
         self.width = width
 
@@ -25,7 +25,7 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-    
+
     @property
     def width(self):
         """ This function will describe the width """
