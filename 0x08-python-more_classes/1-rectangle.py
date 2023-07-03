@@ -4,6 +4,7 @@
 
 """ This class shows a Rectangle """
 
+
 class Rectangle:
     """ This will represent a rectangle """
     def __init__(self, width=0, height=0):
