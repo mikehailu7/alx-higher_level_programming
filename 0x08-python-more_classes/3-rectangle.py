@@ -6,9 +6,9 @@
 
 
 class Rectangle:
-    """ This function is about a rectangle"""
+    """ This function is about a rectangle """
     def __init__(self, width=0, height=0):
-        """This is the declaration of the rectangle"""
+        """ This is the declaration of the rectangle """
         self.width = width
         self.height = height
 
@@ -44,9 +44,10 @@ class Rectangle:
         """returns printable string representation of the rectangle"""
         string = ""
         if self.__width != 0 and self.__height != 0:
-            string = String + "\n".join("#" * self.__width
-                    for j in range(self.__height))
+            string = string + "\n".join("#" * self.__width
+                    for m in range(self.__height))
             return string
+
     def area(self):
         """This fucntion will return the area of the rectangle"""
         return self.__width * self.__height
