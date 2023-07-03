@@ -16,6 +16,7 @@ class Rectangle:
     def height(self):
         """This function shows the height"""
         return self.__height
+
     @height.setter
     def height(self, value):
         """this fucntion will set the attribute of the height"""
@@ -56,8 +57,8 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__width * 2) + (self.__height * 2)
-    return string
-def __repr__(self):
-    """THis function will returns a string representation of the rectangle for reproduction"""
+
+    def __repr__(self):
+        """THis function will returns a string representation of the rectangle for reproduction"""
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
 
