@@ -12,7 +12,7 @@ class Rectangle:
         self.width = width
 
 
-   @property
+    @property
     def height(self):
         """this funciton shows the height attribute of the rectangle"""
         return self.__height
