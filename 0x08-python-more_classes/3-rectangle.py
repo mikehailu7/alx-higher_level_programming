@@ -33,27 +33,27 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        """this fucntion will set the attribute of the width"""
+        """ This fucntion will set the attribute of the width """
         if type(value) is not int:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
 
+    def area(self):
+        """ This fucntion will return the area of the rectangle"""
+        return self.__width * self.__height
+
+    def perimeter(self):
+        """ This fuction will returns the perimeter of the rectangle"""
+        if self.__width == 0 or self.__height == 0:
+            return 0
+        return (self.__width * 2) + (self.__height * 2)
+
     def __str__(self):
-        """This function will returns printable string of the rectangle"""
+        """ This function will returns printable string of the rectangle """
         string = ""
         if self.__width != 0 and self.__height != 0:
             string = string + "\n".join("#" * self.__width
                     for m in range(self.__height))
             return string
-
-    def area(self):
-        """This fucntion will return the area of the rectangle"""
-        return self.__width * self.__height
-
-    def perimeter(self):
-        """THis fuction will returns the perimeter of the rectangle"""
-        if self.__width == 0 or self.__height == 0:
-            return 0
-        return (self.__width * 2) + (self.__height * 2)
