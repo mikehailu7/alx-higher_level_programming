@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-# author: mikiashailu
-# fun: rectangletwo
+# Author: mikiasHailu
+# Fun: Rectangletwo
 
 """ This class shows a Rectangle """
-
 
 class Rectangle:
     """ This will represent a rectangle """
