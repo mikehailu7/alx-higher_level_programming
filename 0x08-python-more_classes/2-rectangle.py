@@ -1,15 +1,16 @@
 #!/usr/bin/python3
 # author: mikiashailu
 # fun: rectangletwo
-"""
-This function will define a class Rectangle
-"""
+
+""" This function will define a class Rectangle """
+
 class Rectangle:
     """This function is about a rectangle"""
     def __init__(self, width=0, height=0):
         """This is the declaration of the rectangle"""
         self.width = width
         self.height = height
+
      @property
     def height(self):
         """This function shows the height"""
@@ -23,6 +24,7 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
+
     @property
     def width(self):
         """This function shows the width"""
@@ -36,6 +38,7 @@ class Rectangle:
         if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
+
     def area(self):
         """This fucntion will return the area of the rectangle"""
         return self.__width * self.__height
