@@ -12,7 +12,7 @@ class Rectangle:
         self.width = width
         self.height = height
 
-     @property
+    @property
     def height(self):
         """This function shows the height"""
         return self.__height
@@ -45,8 +45,8 @@ class Rectangle:
         string = ""
         if self.__width != 0 and self.__height != 0:
             string += "\n".join("#" * self.__width
-                                for m in range(self.__height))
-        return string
+                    for m in range(self.__height))
+            return string
 
     def area(self):
         """This fucntion will return the area of the rectangle"""
@@ -65,4 +65,4 @@ class Rectangle:
     def __repr__(self):
         """This function will returns a string representation of the rectangle for reproduction"""
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
-    
+
