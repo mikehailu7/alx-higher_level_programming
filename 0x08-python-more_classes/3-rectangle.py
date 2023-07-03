@@ -45,15 +45,15 @@ class Rectangle:
         string = ""
         if self.__width != 0 and self.__height != 0:
             string = string + "\n".join("#" * self.__width
-                    for j in range(self.__height))
+                    for m in range(self.__height))
             return string
 
     def area(self):
-        """This fucntion will return the area of the rectangle"""
+        """ This fucntion will return the area of the rectangle """
         return self.__width * self.__height
 
     def perimeter(self):
-        """THis fuction will returns the perimeter of the rectangle"""
+        """ This fuction will returns the perimeter of the rectangle """
         if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__width * 2) + (self.__height * 2)
