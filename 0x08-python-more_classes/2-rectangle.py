@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-# author: mikiashailu
-# fun: rectangletwo
+# Author: mikiasHailu
+# Fun: rectangleThree
 
 """ This function will define a class Rectangle """
+
 
 class Rectangle:
     """This function is about a rectangle"""
@@ -11,7 +12,7 @@ class Rectangle:
         self.width = width
         self.height = height
 
-     @property
+    @property
     def height(self):
         """This function shows the height"""
         return self.__height
