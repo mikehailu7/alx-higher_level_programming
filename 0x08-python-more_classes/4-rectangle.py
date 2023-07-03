@@ -1,16 +1,18 @@
 #!/usr/bin/python3
 # author: mikiashailu
-# fun: rectangletwo
-"""
-This function will define a class Rectangle
-"""
+# fun: rectanglefour
+
+""" This function will define a class Rectangle """
+
+
 class Rectangle:
     """This function is about a rectangle"""
     def __init__(self, width=0, height=0):
         """This is the declaration of the rectangle"""
         self.width = width
         self.height = height
-     @property
+
+    @property
     def height(self):
         """This function shows the height"""
         return self.__height
@@ -22,6 +24,7 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
+
     @property
     def width(self):
         """This function shows the width"""
@@ -35,13 +38,15 @@ class Rectangle:
         if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
+
     def __str__(self):
         """This will returns printable string representation of the rectangle"""
         string = ""
         if self.__width != 0 and self.__height != 0:
             string += "\n".join("#" * self.__width
-                                for m in range(self.__height))
-        return string
+                    for j in range(self.__height))
+            return string
+
     def area(self):
         """This fucntion will return the area of the rectangle"""
         return self.__width * self.__height
@@ -51,8 +56,8 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__width * 2) + (self.__height * 2)
-        return string
-    def __repr__(self):
-        """THis function will returns a string representation of the rectangle for reproduction"""
+    return string
+def __repr__(self):
+    """THis function will returns a string representation of the rectangle for reproduction"""
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
-    
+
