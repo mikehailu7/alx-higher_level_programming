@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-# author: MikiasHailu
-# fun: rectangletwo
-"""
-This is a rectangle class.
-"""
+# Author: MikiasHailu
+# Fun: rectangletwo
 
+""" This is a rectangle class """
 
 class Rectangle:
     """this functoin shows a rectangle"""
@@ -12,10 +10,14 @@ class Rectangle:
         """This is the declaration of rectangle"""
         self.height = height
         self.width = width
+
+
    @property
     def height(self):
         """this funciton shows the height attribute of the rectangle"""
         return self.__height
+
+
     @height.setter
     def height(self, value):
         """This function will set instance attribute height"""
@@ -24,10 +26,13 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-  @property
+
+
+    @property
     def width(self):
         """this is a fucntion for the width"""
         return self.__width
+
     @width.setter
     def width(self, value):
         """this function shows  attribute of width"""
