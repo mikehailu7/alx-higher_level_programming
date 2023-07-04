@@ -15,7 +15,7 @@ class Rectangle:
         """This is the declaration of the rectangle"""
         self.width = width
         self.height = height
-        Rectangle.number_of_instances =  Rectangle.number_of_instances + 1
+        Rectangle.number_of_instances = Rectangle.number_of_instances + 1
 
     @property
     def height(self):
@@ -66,7 +66,7 @@ class Rectangle:
     def __del__(self):
         """ This function will prints a string when an instance has been deleted"""
         print("Bye rectangle...")
-        Rectangle.number_of_instances =  Rectangle.number_of_instances - 1
+        Rectangle.number_of_instances = Rectangle.number_of_instances - 1
 
     def __repr__(self):
         """This function will returns a string representation of the rectangle for reproduction"""
