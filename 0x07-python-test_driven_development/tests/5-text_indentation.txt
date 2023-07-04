@@ -1,0 +1,77 @@
+This is the text_indentation module
+===================================
+
+Using text_indentation function
+-------------------------------
+
+Importing the function from the module:
+	>>> text_indentation = __import__("5-text_indentation").text_indentation
+
+Checking for function docstring:
+	 >>> g = __import__("5-text_indentation").text_indentation.__doc__
+         >>> len(g) > 1
+         True
+
+Checking for module docstring:
+	 >>> z = __import__("5-text_indentation").__doc__
+	 >>> len(z) > 1
+	 True
+
+Checking for no args:
+	 >>> text_indentation()
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+Checking for too many args:
+	 >>> text_indentation("Hello", "Hi")
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: text_indentation() takes 1 positional argument but 2 were given
+
+Checking for passing non-string type:
+	 >>> text_indentation(1)
+         Traceback (most recent call last):
+         ...
+         TypeError: text must be a string
+
+Checking for passing None:
+	 >>> text_indentation(None)
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: text must be a string
+
+Checking for multiple spaces:
+	 >>> text_indentation(" emaye.  How are you? ")
+	 emaye.
+	 <BLANKLINE>
+	 How are you?
+	 <BLANKLINE>
+
+Checking for one word:
+	 >>> text_indentation("bunny")
+	 bunny
+
+ 
+Checking for newline in middle:
+	 >>> text_indentation("Hi \n . did you miss me too?")
+	 Hi
+	  .
+	 <BLANKLINE>
+	 did you miss me too?
+	 <BLANKLINE>
+
+Checking for newline at beginning:
+	 >>> text_indentation(" \n bunny how are you?")
+	 <BLANKLINE>
+	  bunny
+	 <BLANKLINE>
+	 how are you?
+	 <BLANKLINE>
+
+Checking for newline at end:
+	 >>> text_indentation("Hello, how are you?\n")
+	 Hello, how are you?
+	 <BLANKLINE>
+	 <BLANKLINE>
+
