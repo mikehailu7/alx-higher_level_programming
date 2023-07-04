@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-# Author: mikiasHailu
-# Fun: rectangleFour
+# Author: MikiasHailu
+# Fun: RectangleFour
 
 """ This function will define a class Rectangle """
 
 
 class Rectangle:
-    """This function is about a rectangle"""
+    """ This function is about a rectangle """
     def __init__(self, width=0, height=0):
         """This is the declaration of the rectangle"""
         self.width = width
@@ -55,7 +55,7 @@ class Rectangle:
         string = ""
         if self.__width != 0 and self.__height != 0:
             string += "\n".join("#" * self.__width
-                                for j in range(self.__height))
+                    for j in range(self.__height))
             return string
 
 
