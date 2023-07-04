@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # Author: mikiasHailu
+# Fun: Advanced
 
 """ this is a backtracking program """
 
@@ -33,10 +34,10 @@ if __name__ == "__main__":
         if (already_exists(y)):
             return False
         m = 0
-        while(i < x):
+        while(m < x):
             if abs(a[m][1] - y) == abs(m - x):
                 return False
-            i = i + 1
+            m = m + 1
         return True
 
     def clear_a(x):
