@@ -3,6 +3,7 @@
 
 """ This class will describe a lockedclass."""
 
+
 class LockedClass:
     """ This is the class declaration  """
 
