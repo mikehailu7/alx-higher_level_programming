@@ -6,7 +6,10 @@
 
 
 class Rectangle:
-    """This function is about a rectangle"""
+    """ This function is about a rectangle """
+    
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """This is the declaration of the rectangle"""
         self.width = width
@@ -54,17 +57,17 @@ class Rectangle:
         return self.__width * self.__height
 
     def perimeter(self):
-        """THis fuction will returns the perimeter of the rectangle"""
+        """ This fuction will returns the perimeter of the rectangle """
         if self.__width == 0 or self.__height == 0:
             return 0
         return (self.__width * 2) + (self.__height * 2)
 
     def __del__(self):
-        """prints a string when an instance has been deleted"""
+        """ This function will prints a string when an instance has been deleted """
         print("Bye rectangle...")
         Rectangle.number_of_instances =  Rectangle.number_of_instances + 1
 
     def __repr__(self):
-        """This function will returns a string representation of the rectangle for reproduction"""
+        """ This function will returns a string representation of the rectangle for reproduction """
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
 
