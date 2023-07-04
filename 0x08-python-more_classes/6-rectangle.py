@@ -1,11 +1,13 @@
 #!/usr/bin/python3
-# author: mikiashailu
-# fun: rectangletwo
+# Author: mikiasHailu
+# Fun: rectangleSix
 
 """This function will define a class Rectangle"""
 
 class Rectangle:
-    """ This function is about a rectangle """    
+   
+    """ This function is about a rectangle """
+
     number_of_instances = 0
 
     def __init__(self, width=0, height=0):
@@ -63,9 +65,8 @@ class Rectangle:
     def __del__(self):
         """ This function will prints a string when an instance has been deleted """
         print("Bye rectangle...")
-        Rectangle.number_of_instances =  Rectangle.number_of_instances + 1
+        Rectangle.number_of_instances =  Rectangle.number_of_instances - 1
 
     def __repr__(self):
         """ This function will returns a string representation of the rectangle for reproduction """
         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
-
