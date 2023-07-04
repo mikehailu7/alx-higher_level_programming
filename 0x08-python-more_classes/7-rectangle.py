@@ -47,10 +47,10 @@ class Rectangle:
     def __str__(self):
         """ returns printable string representation of the rectangle """
         string = ""
-         if self.__width != 0 and self.__height != 0:
-             string += "\n".join(str(self.print_symbol) * self.__width
-                     for m in range(self.__height))
-             return string
+        if self.__width != 0 and self.__height != 0:
+            string += "\n".join(str(self.print_symbol) * self.__width
+                    for m in range(self.__height))
+            return string
 
     def area(self):
         """ This fucntion will return the area of the rectangle """
