@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#Author: MikiasHailu
 #project: Lookup
 """This function is called the lookup"""
 
