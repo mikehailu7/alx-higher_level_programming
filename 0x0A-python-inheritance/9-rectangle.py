@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-#Author: MikiasHailu
-#Project: Full rectangle
+# Author: MikiasHailu
+# Project: Full rectangle
 """ This module contains the Rectangle and BaseGeometry class """
 
 class Rectangle(BaseGeometry):
     """ This is a rectangle class """
+
     def __init__(self, width, height):
         """ This function is the initialization of the rectangle """
         self.integer_validator("width", width)
@@ -22,7 +23,8 @@ class Rectangle(BaseGeometry):
 
 
 class BaseGeometry:
-    """ THis class is base geomery class. """
+    """ THis class is base geomery class """
+
     def area(self):
         """ This is an area function with exception. """
         raise Exception("area() is not implemented")
