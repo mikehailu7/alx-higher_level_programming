@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 #Author: mikiasHailu
 #project: inheritance
+
 """ This function is called the lookup """
 
 
