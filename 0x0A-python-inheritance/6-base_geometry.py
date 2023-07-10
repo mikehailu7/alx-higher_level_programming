@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-#Author: MikiasHailu
-#Project: impove geometry
+# Author: MikiasHailu
+# Project: impove geometry
 """ This class is called the BaseGeometry """
+
 
 class BaseGeometry:
 
