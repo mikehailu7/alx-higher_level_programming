@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-#Author: MikiasHailu
-#Project: Integer validator
+# Author: MikiasHailu
+# Project: Integer validator
 """ This class is a BaseGeometry class """
 
 class BaseGeometry:
