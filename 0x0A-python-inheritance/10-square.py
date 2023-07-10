@@ -9,10 +9,8 @@ class Square(Rectangle):
     """ This class Represent a square """
 
     def __init__(self, size):
-        """ This function will Initialize a new square.
-        Arguments:
-            size: This is the size of the new square.
-        """
+        """ This function will Initialize a new square """
+
         super().__init__(size, size)
         self.integer_validator("size", size)
         self.__size = size
