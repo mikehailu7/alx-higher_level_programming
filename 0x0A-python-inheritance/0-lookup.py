@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-#Author: mikiasHailu
-#project: inheritance
+#Author: MikiasHailu
 
 """This function is called the lookup"""
 
