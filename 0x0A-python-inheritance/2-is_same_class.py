@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-#Author: mikiasHailu
-#project: Exact same object
+# Author: mikiasHailu
+# Project: Exact same object
 """ This is the is same class function """
 
 def is_same_class(obj, a_class):
