@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-#Author: MikiasHailu
-#project: my integer
+# Author: MikiasHailu
+# project: myinteger
 """ This the myint class """
+
 
 class MyInt(int):
     """ This class is the representaion of my int class """

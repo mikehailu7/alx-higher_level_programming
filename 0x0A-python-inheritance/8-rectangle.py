@@ -6,6 +6,7 @@
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
+
 class Rectangle(BaseGeometry):
     """ This is the representation of a rectangle with a parameter baseGeometery """
     def __init__(self, width, height):

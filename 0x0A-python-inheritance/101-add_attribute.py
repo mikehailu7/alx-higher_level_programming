@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-#Author: MikiasHailu
-#Project: Can I
+# Author: MikiasHailu
+# Project: CanI
 
 """ This function will add attributes to an objects. """
+
 
 def add_attribute(obj, att, value):
     """ This function will add a new attribute to an obj. """
