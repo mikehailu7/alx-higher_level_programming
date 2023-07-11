@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # Author: MikiasHailu
 # Project: Readfile
-""" This is the read_file function """
+""" This is the read file function """
 
 
 def read_file(filename=""):
