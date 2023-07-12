@@ -11,7 +11,7 @@ try:
     for line in sys.stdin:
         tokens = line.split()
         if len(tokens) >= 2:
-            z = i
+            z = m
             if tokens[-2] in status_tally:
                 status_tally[tokens[-2]] += 1
                 m = m + 1
