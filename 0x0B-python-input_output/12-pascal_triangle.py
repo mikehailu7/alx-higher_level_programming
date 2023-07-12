@@ -4,7 +4,7 @@
 """ This function is called pascal triangle function """
 
 
-def pascal_triangle(n):
+def pascal_triangle(z):
     """ This fucntion will return lists that represent the pascal triangle """
     if z <= 0:
         return []
