@@ -7,5 +7,5 @@ SELECT m.`title`
 
        INNER JOIN `tv_genres` AS n
        ON n.`id` = l.`genre_id`
-       WHERE g.`name` = "Comedy"
+       WHERE n.`name` = "Comedy"
  ORDER BY m.`title`;
