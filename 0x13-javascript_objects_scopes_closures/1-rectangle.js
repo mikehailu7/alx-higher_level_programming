@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Author: Mikias Hailu
+// Author: Mikias Hailu
 module.exports = class Rectangle {
 	constructor (w, h) {
 		this.width = w;

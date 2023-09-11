@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Author: Mikias Hailu
+// Author: Mikias Hailu
 module.exports = class Square extends require('./5-square.js') {
 	charPrint (c) {
 		if (c === undefined) {

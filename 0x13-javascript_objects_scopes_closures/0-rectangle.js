@@ -1,3 +1,3 @@
 #!/usr/bin/node
-//Auhtor: Mikias Hailu
+// Author: Mikias Hailu
 module.exports = class Rectangle {};

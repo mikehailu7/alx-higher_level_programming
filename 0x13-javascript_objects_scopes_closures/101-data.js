@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Author: Mikias Hailu
+// Author: Mikias Hailu
 exports.dict = {
 	89: 1,
 	90: 2,

@@ -1,3 +1,3 @@
 #!/usr/bin/node
-//Author: Mikias Hailu
+// Author: Mikias Hailu
 exports.converter = function (base) { return num => num.toString(base); };

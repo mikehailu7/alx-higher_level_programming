@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Author: Mikias Hailu
+// Author: Mikias Hailu
 const { dict } = require('./101-data');
 const convertedArr = Object.entries(dict);
 const newObj = {};
