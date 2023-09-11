@@ -1,12 +1,12 @@
 #!/usr/bin/node
-//Author: MIkias Hailu
+// Author: MIkias Hailu
 const myObj = {
-  type: 'object',
-  value: 12
+	type: 'object',
+	value: 12
 };
 console.log(myObj);
 myObj.incr = function () {
-  this.value++;
+	this.value++;
 };
 myObj.incr();
 console.log(myObj);

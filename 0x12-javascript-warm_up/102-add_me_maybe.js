@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Author: Mikias Hailu
+// Author: Mikias Hailu
 exports.addMeMaybe = function (number, theFunction) {
 	theFunction(++number);
 };

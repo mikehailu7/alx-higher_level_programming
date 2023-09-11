@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Author: Mikias Hailu
+// Author: Mikias Hailu
 if (process.argv.length <= 3) {
 	console.log(0);
 } else {

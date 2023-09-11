@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Author: Mikias Hailu
+// Author: Mikias Hailu
 const m = Math.floor(Number(process.argv[2]));
 if (isNaN(m)) {
 	console.log('Missing number of occurrences');

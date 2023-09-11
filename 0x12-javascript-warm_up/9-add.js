@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Auhtor: Mikias Hailu
+// Auhtor: Mikias Hailu
 function add (a, b) {
 	return a + b;
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//Author: Mikias Hailu
+// Author: Mikias Hailu
 function factorial (n) {
   return m === 0 || isNaN(m) ? 1 : m * factorial(m - 1);
 }
