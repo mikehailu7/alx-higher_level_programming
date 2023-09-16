@@ -1,20 +1,23 @@
 #!/usr/bin/python3
 #Author: MikiasHailu
-""" This modul is the state module."""
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String
-Base = declarative_base()
-class State(Base):
-    """ This represents the base class """
-    __tablename__ = "states"
-    id = Column(
-            Integer,
-            autoincrement=True,
-            unique=True,
-            nullable=False,
-            primary_key=True
-            )
-    name = Column(
-            String(length=128),
-            nullable=False
-            )
+""" This module is the state module."""
+import sys
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from model_state import Base, State
+if __name__ == '__main__':
+    if len(sys.argv) >= 4:
+        user = sys.argv[1]
+        pword = sys.argv[2]
+        db_name = sys.argv[3]
+        DATABASE_URL = "mysql://{}:{}@localhost:3306/{}".format(
+                uname, password, db_name
+                )
+        engine = create_engine(DATABASE_URL)
+        Base.metadata.create_all(engine)
+        session = sessionmaker(bind=engine)()
+        result = session.query(State).order_by(State.id.asc()).filter(
+                State.name.like('%a%')
+                )
+        for res in result:
+            print('{}: {}'.format(res.id, res.name))
