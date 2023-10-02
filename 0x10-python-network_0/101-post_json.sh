@@ -1,4 +1,3 @@
 #!/bin/bash
-# Author: MikiasHailu
-# This will Send a POST request to a given URL, and displays the body of the response.
+#Author: MikiasHailu
 curl -sL -X POST -H 'Content-Type: application/json' -d "$([ -f "$2" ] && cat "$2")" "$1"
