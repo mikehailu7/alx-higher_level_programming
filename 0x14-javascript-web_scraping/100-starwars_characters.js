@@ -1,5 +1,5 @@
 #!/usr/bin/node
-#Author: MikiasHailu
+//Author: MikiasHailu
 const request = require('request');
 const url = 'https://swapi-api.hbtn.io/api/films/' + process.argv[2];
 let def = {};
